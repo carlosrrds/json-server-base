@@ -1,11 +1,69 @@
 {
   "users": [
     {
-      "email": "kenzinho@mail.com",
-      "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
-      "name": "Kenzinho",
-      "age": 38,
+      "email": "JH@gmail.com",
+      "password": "$2a$10$a58F66wQDjKgg4BnRvMcPelOIDl98aAw62VpbECpbNRhcemG325TW",
+      "corporateName": "Jh escola de futebol",
+      "userName": "Jh Esportes",
+      "type": "establishment",
+      "CNPJ": "00000000000000",
       "id": 1
+    },
+    {
+      "email": "pernadepau@gmail.com",
+      "password": "$2a$10$UsRQLBhAQ2TVDfH.7NAaPeNP.Cc9F90Cre0ua5LvRSSXKRpCkTqHy",
+      "userName": "Perna de Pau",
+      "type": "team",
+      "id": 2
+    },
+    {
+      "email": "pesdevirgula@gmail.com",
+      "password": "$2a$10$KFiDbvdxh166ahCZtBSXuu1kU67Ol8gVRrpQ3pEulaeuObnv9rQUe",
+      "userName": "Pés de Virgula",
+      "type": "team",
+      "id": 3
+    }
+  ],
+  "match": [
+    {
+      "date": "Thu Feb 20 2020 08:00:00 GMT-0300 (GMT-03:00)'",
+      "firtTeam": "time1",
+      "secondTeam": "time2",
+      "stablishment": "JH Esportes",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "date": "Thu Feb 20 2020 08:00:00 GMT-0300 (GMT-03:00)'",
+      "firtTeam": "time1",
+      "secondTeam": "time2",
+      "stablishment": "JH Esportes",
+      "userId": 1,
+      "status": "filled",
+      "id": 2
+    },
+    {
+      "date": "Thu Feb 20 2020 3:00:00 GMT-0300 (GMT-03:00)'",
+      "firtTeam": "Pés de virgula",
+      "secondTeam": "Perna de pau",
+      "stablishment": "JH Esportes",
+      "userId": 1,
+      "status": "filled",
+      "id": 3
+    }
+  ],
+  "solicitation": [
+    {
+      "date": "Thu Feb 20 2020 1:00:00 GMT-0300 (GMT-03:00)'",
+      "userId": 2,
+      "matchId": 2,
+      "id": 1
+    },
+    {
+      "date": "Thu Feb 20 2020 1:00:00 GMT-0300 (GMT-03:00)'",
+      "userId": 2,
+      "matchId": 51,
+      "id": 2
     }
   ]
 }
